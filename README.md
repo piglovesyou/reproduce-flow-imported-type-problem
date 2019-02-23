@@ -1,13 +1,14 @@
-Please run
+[![Build Status](https://travis-ci.org/piglovesyou/reproduce-flow-imported-type-problem.svg?branch=master)](https://travis-ci.org/piglovesyou/reproduce-flow-imported-type-problem)
+
+Please run 
 
 ```bash
-yarn && yarn run check
+yarn && yarn test
 ```
 
-, then it will show the log below.
+, [then it will show the log below.](https://travis-ci.org/piglovesyou/reproduce-flow-imported-type-problem/jobs/497342777#L451)
 
 ```
-yarn run v1.12.3
 $ flow check
 Error ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ index.js:28:20
 
@@ -25,8 +26,6 @@ number [1] is incompatible with Promise [2].
 
 
 Found 1 error
-error Command failed with exit code 2.
-info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ```
 
 # What
