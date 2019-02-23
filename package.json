@@ -1,0 +1,12 @@
+{
+  "name": "reproduce-flow-imported-type-problem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "check": "flow check"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.93.0"
+  }
+}
